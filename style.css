@@ -15,10 +15,10 @@ footer{
   flex: 1;
   margin-top: 1%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "name name name"
-  "home email linkedin";
+  grid-template-areas: "name name name name name"
+  "home email linkedin github cv";
 }
 
 footer p a:visited{
@@ -44,6 +44,14 @@ footer p{
 #linkedinlink {
   grid-area: linkedin;
 } 
+
+#cvlink {
+  grid-area: cv;
+}
+
+#githublink {
+  grid-area: github;
+}
 
 #nameftr{
   grid-area: name;
