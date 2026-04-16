@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Blog - Daniel Lievesley</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+</head>
+<div class="containerstyle">
+<body>
+  <header> 
+    <h1> Daniel Lievesley </h1>
+    <nav id="navbar">
+      <ul>
+        <li> <a href="index.html">Home </a> </li>
+            <li> <a href="education.html">Education </a></li>
+            <li> <a href="portfolio.html">Portfolio </a> </li>
+            <li> <a href="skills.html">Skills </a> </li>
+            <li> <a href="blogpage.html"> Blog </a> </li>
+            <li> <a href="login.html"> Login </a> </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="titleofpage">
+      <h1> Blog. </h1>
+      <p> Keep in the loop with my projects and achievements through my blog posts. </p>
+    </div>
+    <div id="blogcontainer">
+      <article id="blog1">
+          <h2> Real world applications of FSAs </h2>
+          <p class="datesub"> 11 April 2025 </p>
+          <p> In computational theory, finite state automata (FSA) are “abstract machines used to recognise patterns in input sequences” (GeeksforGeeks, 2026).  They are powerful abstractions which allows us to control and model the behaviour of computers machines with a finite number of states. Through this essay, I will explore several real-world applications of FSAs. </p>
+
+<p> An FSA works by starting at the initial state (often with notation q0), reading a word (a set of input characters) and passing through states, where there is a possible transition given the word. Once all words have been read, if the current state is an accepting state (often with notation qFinal), then the word is accepted by the automata. They come in the form of deterministic (DFA), where for any given state and word there is only one possible transition, and non-deterministic (NFA), where there are different transitions possible. In addition to this, finite state automata can be minimised, enabling us to determine a smaller, equivalent automaton which accepts the same language. There are many different applications to finite state automata, including lexical analysis during compilation, network protocols and spell checkers. </p>
+
+<p>One application of finite state automata is through lexical analysis, during compilation of programs. When a program compiles, a simple structure follows, beginning with lexical analysis. “The role of a lexical analyser is to read a bit of the input and return a lexeme (or token)” (University of Edinburgh, 2023, p. 15). Each token pattern produces a class, which is represented by a regular expression. These regular expressions are then converted into DFAs (Kulkarni, 2025). During lexical analysis, the DFA recognises each word, transitioning through states as appropriate. If the final state is reached, the token is then recognised and then later passed to syntax analysis. If the final state is not reached, the word is therefore not accepted. This is one example of how FSAs are used to facilitate a real-world application, in the case of compilation. </p>
+
+<p> In addition to this, a finite state automaton can be used to model network protocols. “Network protocols are defined as the rules and conventions that govern communication between peers in a network” (Ivanova & Jurczyk, 2003). In the case of a protocol, a “generator creates an automaton that accepts all and only the packets that respect the protocol format” (Rolando, et al., n.d.). Similar to the process during lexical analysis, an FSA is ideal because it can filter an incoming word, in this case a packet, and deem it matching of the format intended, if and only if the word ends at an accepting state. That way, the FSA verifies and filters incoming packets to check if they meet a certain protocol. In this regard, it is clear how finite state automata can be used to model network protocols and communication between devices. </p>
+
+<p> Furthermore, spell checkers heavily utilise finite state automata to verify the spelling of a given word. In a similar light, FSAs are used in spell checkers, as an automaton is “designed to accept only those words that are valid in a given language” (Kambarami, n.d.). This suits the role of a spell checker, which also checks if a word is valid in a language. However, a spell checker’s job is not only to check if spellings are correct, but also to suggest any corrected spellings. This is where the Levenshtein automaton comes in useful. A “possible measure for the proximity of two strings is the so-called Levenshtein distance”. This distance between two words is the “minimal number of primitive edit operations” transforming one word into the other. (Mitankin, 2005) This may include, for example, substitution of a letter, or deletion, whereby a typo may have occurred. Given this, a Levenshtein automaton can be constructed, which “recognize the set of all strings whose Levenshtein distance from w is at most n” (Wikipedia, 2026), used for efficient string correction algorithms, “computed in time linear to the length of the input”. (Schulz & Mihov, 2002). This way, FSA become incredibly valuable in the determination of text correctness and calculation of appropriate suggestions. </p>
+
+<p> In conclusion, it is clear that there are many real-world applications of finite state automaton, which may not be obvious to a user. However, applications of FSAs can be found hidden in everyday tools and algorithms which have become a part of everyday life. The use of FSAs intertwined with other theories and algorithms allow for FSAs, as powerful abstractions, to provide powerful software and hardware. The development of modern technology, to some extent, is reliant on the validation provided by FSAs.
+          </p>
+
+
+</p>
+      </article>
+      <article id="blog2">
+          <h2> Celebrating success! My latest grades. </h2>
+          <p class="datesub"> 2nd March 2026 </p>
+          <p> I’m delighted to share that I achieved an overall score of 83.4% in my first semester.
+            <ul>
+            <li> Procedural Programming - 79.6% </li>
+            <li> Computer Systems & Networks - 90% </li>
+            <li> Logic & Discrete Structures - 73% </li>
+            <li> Professional & Research Practice - 91% </li>
+            </ul>
+
+            However, the first semester is so much more than academic achievements. It’s also about settling into a new environment, making new friends, and for many, including myself, moving to a new city. The first semester has taught me how to handle all sorts of challenges and adapt to them, all very valuable skills alongside academic achievement. 
+
+            Congratulations to everyone receiving their provisional results today! 🎉 </p>
+        </article>
+
+      <article id="blog3">
+          <h2> College Graduation </h2>
+          <p class="datesub"> 18th December 2025 </p>
+          <p> Great to be back in Colchester after completing my first semester at university. Thank you to The Sixth Form College Colchester for organising such a lovely Graduation and Awards Evening at the University of Essex. It was fantastic to celebrate the achievements of my peers and catch up with old friends.
+
+              I’m extremely grateful to my teachers for their continued support throughout my time at college. I’m honoured to have also received both the College Academic Achievement Award and the Geography Department Award.
+
+              Congratulations to the class of 2025 🎉</p>
+      </article>
+
+    <section id="linktopost">
+      <a href="addEntry.html"> Add New Entry</a>
+    </section>
+    </div>
+  </main>
+  <footer>
+    <p id="nameftr">Daniel Lievesley © 2026</p>
+    <a id="homelink" href="index.html"> Home </a>
+    <a id="emaillink" href="mailto:d.j.lievesley@se25.qmul.ac.uk"> Email </a>
+    <a id = "linkedinlink" href="https://www.linkedin.com/in/daniel-lievesley/"> Linkedin</a>
+  </footer>
+</body>
+</html>

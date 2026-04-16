@@ -1,0 +1,391 @@
+/* basic styling including all page background, and margins (body) and footer styling, along with header */
+body {
+  background-color: rgb(1, 70, 1);
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  font-family: 'Montserrat';
+  padding-left: 0.5%;
+  padding-bottom: 0.5%;
+  padding-top: 0.25%;
+  flex: 1;
+  margin-top: 1%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "name name name"
+  "home email linkedin";
+}
+
+footer p a:visited{
+  text-decoration: none;
+  
+}
+footer a {
+  color: red;
+}
+
+footer p{
+  grid-area: name;
+}
+
+#homelink {
+  grid-area: home;
+}
+
+#emaillink {
+  grid-area: email;
+}
+
+#linkedinlink {
+  grid-area: linkedin;
+} 
+
+#nameftr{
+  grid-area: name;
+  text-align: center;
+}
+
+
+header{
+  padding-top: 0.3%;
+  background-color: rgb(81, 162, 255);
+  color: black;
+  font-family: 'Montserrat', Arial;
+  margin-top: 0.3%;
+  display: flex;
+  flex: 1;
+}
+
+header h1, h5{
+  margin-bottom: 0.5%;
+  margin-top: 0%;
+  padding-top: 0%;
+  padding-left: 0.5%;
+  padding-right: 1.5%;
+  flex: 1
+}
+
+header a:link{
+  color: white;
+}
+
+header a:visited{
+  color: white;
+}
+/* navigation bar styling and declaration of place in flex*/
+
+#navbar {
+  flex: 2;
+  font-family: 'Montserrat', Arial;
+  flex: 2;
+  text-align: right;
+  padding-right: 2%;
+}
+
+nav ul li{
+  display: inline-block;
+  padding-left: 2%;
+  list-style-type: none;
+}
+
+nav ul li a:link, footer a:link {
+  text-decoration: none;
+  text-align: center;
+}
+
+/* main content styling such as for 'tile like' design and appropriate padding */
+/* home page styling which includes the aside and blog area (placed in flexbox) within grid */
+#maincontent section, #maincontent #blogarea{
+  background-color: white;
+  color: black;
+  font-family: 'Roboto', Arial;
+  padding-top: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 0.5%;
+  margin-top: 1%;
+  margin-bottom: 0%;
+}
+
+#maincontent{
+  display: flex;
+  gap: 1%;
+  margin-bottom: 1%;
+  align-items: center;
+  flex: 3;
+}
+
+#generalinfo{
+  flex: 3;
+}
+
+#blogarea{
+  flex:1;
+}
+
+img {
+  width: 97%;
+  height: auto;
+}
+
+#generalinfo{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "aboutme photo"
+  "upto upto"
+  "mybackground mybackground";
+}
+
+#aboutme{
+  grid-area: aboutme;
+}
+
+#upto{
+  grid-area: upto;
+}
+
+#mybackground{
+  grid-area: mybackground;
+}
+
+#profile {
+  grid-area: photo;
+  justify-self: end;
+  margin-top: 3%;
+}
+
+/* article styling which distinguises blog from any other info, including unique colour, and blog mini feature on home page */
+article{
+  background-color: rgb(23, 172, 172);
+  color: white;
+  font-family: 'Roboto', Arial;
+  padding-top: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 0.5%;
+  margin-top: 2%;
+}
+
+#blogarea article {
+  border: solid rgb(23, 172, 172);
+  background-color: white;
+  color: black;
+  font-family: 'Roboto', Arial;
+  padding-top: 0.5%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-bottom: 0.5%;
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
+article h2{
+  font-family: 'Montserrat';
+}
+
+#blogcontainer{
+  margin-top: 0.25%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 3fr 0.2fr;
+  grid-template-areas: "blog1 blog2 blog3"
+  "linktopost linktopost linktopost";
+}
+
+#blog1 {
+  grid-area: blog1;
+}
+
+#blog2 {
+  grid-area: blog2;
+}
+
+#blog3 {
+  grid-area: blog3;
+}
+
+#linktopost {
+  grid-area: linktopost;
+  margin-top: 0.5%;
+}
+
+.datesub{
+  font-size: 80%;
+  font-family: 'Montserrat'
+}
+
+/* sub page/ specific info pages styling including title and section alongside grid assignment */
+
+.titleofpage {
+  font-family: 'Montserrat', Arial;
+  background-color: rgb(90, 255, 156);
+  color: black;
+  margin-top: 1%;
+  padding-top: 0.2%;
+  padding-bottom: 0.5%;
+  padding-left: 0.5%;
+}
+
+section{
+  background-color: white;
+  color: black;
+  font-family: 'Roboto', Arial;
+  padding:1%;
+  margin-top: 1%;
+}
+
+#skillscontainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 3fr;
+  grid-template-areas: "title title title title"
+  "skill1 skill2 skill3 skill4"
+}
+
+#skill1{
+  grid-area: skill1;
+}
+
+#skill2{
+  grid-area: skill2;
+}
+
+#skill3{
+  grid-area: skill3;
+}
+
+#skill4{
+  grid-area: skill4;
+}
+
+#myskills{
+  grid-area:title;
+}
+
+#skill1, #skill2, #skill3, #skill4{
+  background-color: rgb(166, 213, 150);
+  margin-right: 2%;
+  padding-left: 2%;
+}
+
+#name{
+  flex: 1;
+}
+
+/* education alignment styling using grid to allow for 2d design */
+#previouseducation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "prevedu prevedu"
+  "edu1 edu2";
+}
+
+#edutile1 {
+  grid-area: edu1;
+  margin-right: 0.5%;
+}
+
+#edutile2 {
+  grid-area: edu2;
+  margin-left: 0.5%;
+}
+
+#preveducationheader {
+  grid-area: prevedu;
+  margin-bottom: 0.5%;
+}
+
+/* specific styling to projects in portfolio, e.g grid layouts and figures */
+#doodlepop {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "info1 eg1"
+  "info2 eg2";
+}
+
+#dpinfo1{
+  grid-area: info1;
+}
+
+#dpinfo2{
+  grid-area: info2;
+}
+
+#egim1{
+  grid-area: eg1;
+}
+
+#egim2{
+  grid-area: eg2;
+}
+
+figure img{
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+  font-family: Roboto;
+}
+
+
+/* forms styling for login and add blog page, including fields and buttons */
+#addblog input{
+  width: 98%;
+}
+#addblog #blogcontentinp input {
+  height: 30%;
+  resize: vertical;
+}
+
+#addblog #sendblog{
+  background-color: lightblue;
+  width: 15%;
+}
+
+#login {
+  grid-area: form;
+  display: flex;
+  flex-direction: column;
+}
+
+#login input {
+  margin-top: 1%;
+}
+
+textarea{
+  width: 98%;
+  height: 50%;
+}
+
+#loginareacontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "msg guidelines"
+  "form form";
+}
+
+/* within login form, styling for password policy section to emphasise it */
+.loginmanagement #passwordrules {
+  padding: 0%;
+  background-color: rgb(245, 183, 183);
+  padding-top: 0.1%;
+  padding-bottom: 0.1%;
+  padding-left: 1%;
+}
+
+/* essential container styling */
+.containerstyle {
+  display: flex;
+  flex-direction: column;
+}
+

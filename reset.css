@@ -1,0 +1,9 @@
+body, footer, footer p a:visited, header, header h1, h5, header a:link, header a:visited, #navbar, nav ul li, footer a+a, nav ul li a:link, footer a:link, #maincontent section, #maincontent #blogarea, #maincontent, #generalinfo, #blogarea, article, #blogarea article, article h2, .datesub, .titleofpage, section, footer a, #name, #addblog input, #addblog #blogcontentinp input, #addblog #sendblog, #login, #login input, textarea, .loginmanagement #passwordrules, .containerstyle, #blogcontainer, #blog1, #blog2, #blog3, #linktopost, #skillscontainer, #skill1, #skill2, #skill3, #skill4, #myskills, #loginareacontainer {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    border: 0;
+    font-size: 100%;
+    list-style: none;
+}
