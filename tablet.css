@@ -1,0 +1,77 @@
+
+
+#maincontent {
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+nav ul li{
+  display: block;
+  padding-left: 0%;
+  list-style-type: none;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+header h1{
+  margin-bottom: 0.5%;
+  margin-top: 0%;
+  padding-top: 0%;
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-bottom: 1%;
+  flex: 1
+}
+
+#navbar {
+    padding:0;
+}
+
+#navbar ul {
+    margin:0;
+    padding:0;
+}
+
+footer {
+    margin-top: 2.5%;
+}
+
+#skillscontainer{
+  display: flex;
+  flex-direction: column;
+}
+
+#myskills{
+    flex:1;
+}
+
+#skill1, #skill2, #skill3, #skill4 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    flex: 1
+}
+
+#doodlepop {
+  display: flex;
+  flex-direction: column;
+}
+
+#dpinfo1, #dpinfo2, #egim1, #egim2{
+  flex: 1;
+}
+
+figure img{
+  width: 100%;
+  height: auto;
+}
+
+
