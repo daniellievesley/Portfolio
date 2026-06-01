@@ -1,8 +1,29 @@
 
 
 #maincontent {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr;
+}
+
+.maincover {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.welcome-copy {
+    flex: 1 1 0;
+}
+
+aside {
+    flex: 0 0 min(18rem, 45vw);
+    margin-left: auto;
+}
+
+figure {
+    margin: 0;
 }
 
 nav ul li{

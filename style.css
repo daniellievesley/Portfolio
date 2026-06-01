@@ -121,28 +121,31 @@ nav ul li a:link, footer a:link {
 }
 
 #maincontent{
-  display: flex;
-  gap: 1%;
+  display: block;
   margin-bottom: 1%;
-  align-items: center;
-  flex: 3;
 }
 
 .maincover {
     display: flex;
+    width: 100%;
     align-items: center;
+    justify-content: space-between;
     gap: 2rem;
+    margin-top: 1%;
 }
 
 .welcome-copy {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
     flex: 1 1 28rem;
     min-width: 0;
     font-family: 'Montserrat';
     font-size: 130%;
     color: white;
+}
+
+.welcome-copy p{
+  margin: 1%;
 }
 
 #welcomeName{
@@ -151,8 +154,20 @@ nav ul li a:link, footer a:link {
 }
 
 aside {
-    flex: 0 1 24rem;
+    flex: 0 0 24rem;
     margin-left: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+.mainpgsection{
+  background-color: transparent;
+  font-family: Montserrat;
+  color: white;
+  font-size: 110%;
+  padding-top: 0%;
 }
 
 .hero-image {
