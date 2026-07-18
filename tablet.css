@@ -99,4 +99,7 @@ figure img{
   height: auto;
 }
 
+#maincontent section, #maincontent #blogarea{
+    padding-left: 2%;
+}
 

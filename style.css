@@ -203,6 +203,10 @@ img {
   height: auto;
 }
 
+.pf-website{
+  display: flex;
+}
+
 #generalinfo{
   display: grid;
   grid-template-columns: minmax(0, 1fr) 240px;
