@@ -144,8 +144,18 @@ nav ul li a:link, footer a:link {
     color: white;
 }
 
-.welcome-copy p{
+.welcome-copy p, .welcome-copy button{
   margin: 1%;
+}
+
+.welcome-copy button{
+  width: 20%;
+  font-size: 80%;
+  text-align: center;
+  border-radius: 8px;
+  background-color: rgb(81, 162, 255);
+  color: white;
+  font-family: Montserrat;
 }
 
 #welcomeName{
@@ -301,6 +311,42 @@ section{
   padding:1%;
   margin-top: 1%;
 }
+
+#experience-area .career{
+  padding: 0%;
+  display: flex;
+  align-items: flex-start;
+}
+
+#experience-area .career .careerbigtxt{
+  font-family: Montserrat;
+  font-size: 120%;
+}
+
+#experience-area p{
+  font-family: Montserrat;
+}
+
+#experience-area .career .careerbigtitle{
+  font-family: Montserrat;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+#experience-area .career img{
+  max-width: 8%;
+  flex: 0 0 8%;
+  height: 20%;
+  object-fit: contain;
+  padding-right: 2%;
+}
+
+#experience-area .career .career-info{
+  flex: 1;
+  padding-top: -5%;
+}
+
+
 
 #skillscontainer{
   display: grid;
