@@ -7,6 +7,7 @@
 
 .maincover {
     display: flex;
+    flex-direction: column;
     width: 100%;
     align-items: center;
     justify-content: space-between;
@@ -27,13 +28,11 @@ figure {
 }
 
 nav ul li{
-  display: block;
-  padding-left: 0%;
+  display: inline-block;
+  padding: 0 1%;
   list-style-type: none;
   text-align: center;
-  padding-bottom: 1%;
 }
-
 
 header{
     display: flex;
@@ -55,11 +54,16 @@ header h1{
 
 #navbar {
     padding:0;
+    text-align: center;
+    padding-bottom: 1%;
 }
 
 #navbar ul {
     margin:0;
     padding:0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 footer {
