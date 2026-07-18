@@ -156,6 +156,7 @@ nav ul li a:link, footer a:link {
   background-color: rgb(81, 162, 255);
   color: white;
   font-family: Montserrat;
+  min-width: fit-content;
 }
 
 #welcomeName{
