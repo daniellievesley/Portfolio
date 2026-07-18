@@ -312,29 +312,29 @@ section{
   margin-top: 1%;
 }
 
-#experience-area .career{
+.experience-area .career{
   padding: 0%;
   display: flex;
   align-items: flex-start;
 }
 
-#experience-area .career .careerbigtxt{
+.experience-area .career .careerbigtxt{
   font-family: Montserrat;
   font-size: 120%;
 }
 
-#experience-area p{
+.experience-area p{
   font-family: Montserrat;
   margin: 0.5rem;
 }
 
-#experience-area .career .careerbigtitle{
+.experience-area .career .careerbigtitle{
   font-family: Montserrat;
   font-size: 120%;
   font-weight: bold;
 }
 
-#experience-area .career img{
+.experience-area .career img{
   max-width: 8%;
   min-width: 60px;
   flex: 0 0 8%;
@@ -343,28 +343,28 @@ section{
   padding-right: 2%;
 }
 
-#experience-area .career .careerinfo{
+.experience-area .career .careerinfo{
   flex: 1;
   align-self: flex-start;
   padding-top: 0;
   margin-top: 0;
 }
 
-#experience-area .career{
+.experience-area .career{
   margin: 2%;
 }
 
-#experience-area .career .careerinfo ul{
+.experience-area .career .careerinfo ul{
   padding-left: 1.7%;
   margin-top: 1%;
   font-size: 90%;
 }
 
-#experience-area .career .careerinfo p:first-child {
+.experience-area .career .careerinfo p:first-child {
   margin-top: 0;
 }
 
-#experience-area .career .careerinfo .careerdate{
+.experience-area .career .careerinfo .careerdate{
   font-size: 0.95rem;
   color: #666;
 }
