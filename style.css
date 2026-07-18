@@ -341,9 +341,10 @@ section{
   padding-right: 2%;
 }
 
-#experience-area .career .career-info{
+#experience-area .career .careerinfo{
   flex: 1;
-  padding-top: -5%;
+  align-self: flex-start;
+  padding-top: 0;
 }
 
 
