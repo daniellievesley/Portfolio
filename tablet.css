@@ -103,3 +103,7 @@ figure img{
     padding-left: 2%;
 }
 
+.pf-website{
+    flex-direction: column;
+}
+
